@@ -12,7 +12,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.appWrarp {
+  background: url('./assets/Group\ \(1\).jpg');
+  background-repeat: no-repeat;
+  height: 760px;
+  background-size: 100%;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+

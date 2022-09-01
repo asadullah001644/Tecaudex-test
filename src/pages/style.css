@@ -1,0 +1,66 @@
+.heroBanner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: url("./../assets/football.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 760px;
+    background-size: auto;
+
+    
+}
+.heroContent {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+}
+.hero-title {
+    font-size: 62px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 78px;
+    margin-top: 120px;
+    /* or 126% */
+
+    letter-spacing: -0.025em;
+
+    /* Black */
+
+    color: #3D3B52;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 32px;
+}
+.arenaBanner {
+    background: url(./../assets/arena.png);
+    background-color: #FF9F1C;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    padding: 140px;
+    color:#fff
+}
+.areanContent {
+    width: 555px;
+}
+.rectangle {
+    position: relative;
+    margin: 10px 40vw;
+    width: 0;
+    border: none;
+    border-left: 20vw solid #FF9F1C ;
+    border-top: 5vw solid transparent;
+/* position: relative;
+  margin: 10px 40vw;
+  width: 0;
+  height: 10vw;
+  border: none;
+  border-left: 20vw solid #f22;
+  border-top: 5vw solid transparent; */
+
+}
